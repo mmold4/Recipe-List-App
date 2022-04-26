@@ -18,6 +18,7 @@
 		6614C0F82815C7710011FCDD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6614C0F72815C7710011FCDD /* RecipeDetailView.swift */; };
 		66CCB7C128174D5800DD6D3D /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CCB7C028174D5800DD6D3D /* RecipeTabView.swift */; };
 		66CCB7C32818332600DD6D3D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CCB7C22818332600DD6D3D /* Ingredient.swift */; };
+		66CCB7C52818395F00DD6D3D /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CCB7C42818395F00DD6D3D /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6614C0F72815C7710011FCDD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		66CCB7C028174D5800DD6D3D /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		66CCB7C22818332600DD6D3D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		66CCB7C42818395F00DD6D3D /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +90,10 @@
 		6613ED662810C68800D675B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				66CCB7C028174D5800DD6D3D /* RecipeTabView.swift */,
+				66CCB7C42818395F00DD6D3D /* RecipeFeaturedView.swift */,
 				6613ED582810C5F200D675B3 /* RecipeListView.swift */,
 				6614C0F72815C7710011FCDD /* RecipeDetailView.swift */,
-				66CCB7C028174D5800DD6D3D /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				6613ED6E2810CBE400D675B3 /* RecipeModel.swift in Sources */,
 				6613ED6C2810C76E00D675B3 /* Recipe.swift in Sources */,
 				66CCB7C32818332600DD6D3D /* Ingredient.swift in Sources */,
+				66CCB7C52818395F00DD6D3D /* RecipeFeaturedView.swift in Sources */,
 				6613ED572810C5F200D675B3 /* RecipeListApp.swift in Sources */,
 				6613ED70281223D800D675B3 /* DataService.swift in Sources */,
 				66CCB7C128174D5800DD6D3D /* RecipeTabView.swift in Sources */,
